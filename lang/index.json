@@ -1,0 +1,200 @@
+{
+	"wmxvuga": {
+		"zh-cn": "点击或拖拽照片到这里",
+		"en": "Click or drag photos here",
+		"fr": "Cliquez ou faites glisser une photo ici",
+		"ja": "写真をクリックまたはドラッグしてここに貼り付けてください"
+	},
+	"gvdw3dc": {
+		"zh-cn": "请先登录后再使用上传功能",
+		"en": "Please log in before using the upload function",
+		"fr": "Veuillez vous connecter avant d'utiliser la fonction de téléchargement",
+		"ja": "アップロード機能を使用する前にログインしてください"
+	},
+	"fwrpxp4": {
+		"zh-cn": "简体中文",
+		"en": "Simplified Chinese",
+		"fr": "Chinois simplifié",
+		"ja": "簡体字中国語"
+	},
+	"i3l42": {
+		"zh-cn": "日语",
+		"en": "Japanese",
+		"fr": "Japonais",
+		"ja": "日本語"
+	},
+	"ja2g2": {
+		"zh-cn": "法语",
+		"en": "French",
+		"fr": "Français",
+		"ja": "フランス語"
+	},
+	"n1gc2": {
+		"zh-cn": "英语",
+		"en": "English",
+		"fr": "Anglais",
+		"ja": "英語"
+	},
+	"6nrjg1b": {
+		"zh-cn": "图片处理失败，请重试！",
+		"en": "Image processing failed, please try again!",
+		"fr": "Le traitement de l'image a échoué, veuillez réessayer !",
+		"ja": "画像処理に失敗しました。再度お試しください！"
+	},
+	"d5d06mc": {
+		"zh-cn": "请先登录后再使用此功能！",
+		"en": "Please log in before using this function!",
+		"fr": "Veuillez vous connecter avant d'utiliser cette fonction !",
+		"ja": "この機能を使用する前に、先にログインしてください！"
+	},
+	"ptoz5a8": {
+		"zh-cn": "请选择图片文件！",
+		"en": "Please select an image file!",
+		"fr": "Veuillez sélectionner un fichier image !",
+		"ja": "画像ファイルを選択してください！"
+	},
+	"5t2cbud": {
+		"zh-cn": "图片大小不能超过10MB！",
+		"en": "The image size cannot exceed 10MB!",
+		"fr": "La taille de l'image ne peut pas dépasser 10 Mo !",
+		"ja": "画像サイズは10MBを超えてはいけません！"
+	},
+	"h2q3ljb": {
+		"zh-cn": "文件处理失败，请重试！",
+		"en": "File processing failed, please try again!",
+		"fr": "Le traitement du fichier a échoué, veuillez réessayer !",
+		"ja": "ファイル処理に失敗しました。再度お試しください！"
+	},
+	"i8k9d8m": {
+		"zh-cn": "支持jpg、png等格式，大小不超过10MB",
+		"en": "Supports formats such as jpg, png, with size not exceeding 10MB",
+		"fr": "Format jpg, png, etc. pris en charge, taille inférieure à 10 Mo",
+		"ja": "jpg、pngなどの形式をサポートしており、サイズは10MB以下"
+	},
+	"u5bstf6": {
+		"zh-cn": "处理中...",
+		"en": "Processing...",
+		"fr": "En cours de traitement...",
+		"ja": "処理中..."
+	},
+	"il1s5c4": {
+		"zh-cn": "选择照片",
+		"en": "Select Photo",
+		"fr": "Sélectionner une photo",
+		"ja": "写真を選択"
+	},
+	"ax6atf4": {
+		"zh-cn": "原图预览",
+		"en": "Original Image Preview",
+		"fr": "Aperçu de l'image originale",
+		"ja": "オリジナル画像のプレビュー"
+	},
+	"7w2p3k5": {
+		"zh-cn": "处理后预览",
+		"en": "Preview after Processing",
+		"fr": "Aperçu après traitement",
+		"ja": "処理後のプレビュー"
+	},
+	"j1r9nta": {
+		"zh-cn": "请选择背景颜色并生成",
+		"en": "Please select a background color and generate",
+		"fr": "Veuillez sélectionner une couleur d'arrière-plan et générer",
+		"ja": "背景色を選択して生成してください"
+	},
+	"x279vd6": {
+		"zh-cn": "选择背景颜色",
+		"en": "Select Background Color",
+		"fr": "Sélectionner une couleur d'arrière-plan",
+		"ja": "背景色を選択"
+	},
+	"gipzqr4": {
+		"zh-cn": "红色背景",
+		"en": "Red Background",
+		"fr": "Arrière-plan rouge",
+		"ja": "赤色背景"
+	},
+	"hb0ftk4": {
+		"zh-cn": "蓝色背景",
+		"en": "Blue Background",
+		"fr": "Arrière-plan bleu",
+		"ja": "青色背景"
+	},
+	"qh4wbi5": {
+		"zh-cn": "生成新背景",
+		"en": "Generate New Background",
+		"fr": "Générer un nouvel arrière-plan",
+		"ja": "新しい背景を生成"
+	},
+	"uo854g8": {
+		"zh-cn": "选择照片尺寸下载",
+		"en": "Select Photo Size for Download",
+		"fr": "Sélectionner la taille de la photo pour télécharger",
+		"ja": "写真サイズを選択してダウンロード"
+	},
+	"80a8p0f": {
+		"zh-cn": "1寸照 (295×413px)",
+		"en": "1-inch photo (295×413px)",
+		"fr": "Photo de 1 pouce (295×413 px)",
+		"ja": "1寸写真 (295×413px)"
+	},
+	"k7q38vf": {
+		"zh-cn": "2寸照 (413×626px)",
+		"en": "2-inch photo (413×626px)",
+		"fr": "Photo de 2 pouces (413×626 px)",
+		"ja": "2寸写真 (413×626px)"
+	},
+	"7qjrohq": {
+		"zh-cn": "注意：请确保上传的照片清晰、光线充足，以获得最佳效果",
+		"en": "Note: Please ensure that the uploaded photo is clear and well-lit for the best results",
+		"fr": "Attention : assurez-vous que la photo téléchargée est claire et bien éclairée pour obtenir le meilleur résultat",
+		"ja": "注意：アップロードする写真が明瞭で、十分な光があることを確認してください。最適な結果を得るために"
+	},
+	"82n91n9": {
+		"zh-cn": "证件照背景更换工具",
+		"en": "ID Photo Background Replacement Tool",
+		"fr": "Outil de changement de fond pour photo d'identité",
+		"ja": "免許証写真の背景変更ツール"
+	},
+	"il6f8z4": {
+		"zh-cn": "选择语言",
+		"en": "Select Language",
+		"fr": "Sélectionner une langue",
+		"ja": "言語を選択"
+	},
+	"aoepz49": {
+		"zh-cn": "登录失败，请重试！",
+		"en": "Login failed, please try again!",
+		"fr": "La connexion a échoué, veuillez réessayer !",
+		"ja": "ログインに失敗しました。再度お試しください！"
+	},
+	"d6l6s1g": {
+		"zh-cn": "登录服务未加载，请刷新页面重试！",
+		"en": "The login service has not loaded. Please refresh the page and try again!",
+		"fr": "Le service de connexion n'a pas chargé, veuillez rafraîchir la page et réessayer !",
+		"ja": "ログインサービスが読み込まれていません。ページをリフレッシュして再度お試しください！"
+	},
+	"jmgescf": {
+		"zh-cn": "上传您的照片，轻松更换背景颜色",
+		"en": "Upload your photo and easily change the background color",
+		"fr": "Téléchargez votre photo et changez facilement la couleur d'arrière-plan",
+		"ja": "あなたの写真をアップロードして、背景色を簡単に変更しましょう"
+	},
+	"b4ur4re": {
+		"zh-cn": "使用 Google 账号登录",
+		"en": "Log in with Google account",
+		"fr": "Se connecter avec un compte Google",
+		"ja": "Googleアカウントでログイン"
+	},
+	"f6s4mi4": {
+		"zh-cn": "用户头像",
+		"en": "User Avatar",
+		"fr": "Avatar de l'utilisateur",
+		"ja": "ユーザーアイコン"
+	},
+	"iifi5w4": {
+		"zh-cn": "退出登录",
+		"en": "Log out",
+		"fr": "Se déconnecter",
+		"ja": "ログアウト"
+	}
+}

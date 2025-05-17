@@ -9,7 +9,7 @@ const UploadSection = ({ isLoggedIn, onFileUpload, isProcessing }) => {
   // 处理上传按钮点击
   const handleUploadClick = () => {
     if (!isLoggedIn) {
-      alert('请先登录后再使用此功能！')
+      alert(t('请先登录后再使用此功能！'))
       return
     }
     fileInputRef.current?.click()
@@ -21,12 +21,12 @@ const UploadSection = ({ isLoggedIn, onFileUpload, isProcessing }) => {
     if (!file) return
 
     if (!file.type.startsWith('image/')) {
-      alert('请选择图片文件！')
+      alert(t('请选择图片文件！'))
       return
     }
 
     if (file.size > MAX_FILE_SIZE) {
-      alert('图片大小不能超过10MB！')
+      alert(t('图片大小不能超过10MB！'))
       return
     }
 
@@ -35,7 +35,7 @@ const UploadSection = ({ isLoggedIn, onFileUpload, isProcessing }) => {
       onFileUpload(imageDataUrl)
     } catch (error) {
       console.error('文件处理错误:', error)
-      alert('文件处理失败，请重试！')
+      alert(t('文件处理失败，请重试！'))
     }
   }
 
@@ -64,7 +64,7 @@ const UploadSection = ({ isLoggedIn, onFileUpload, isProcessing }) => {
     setIsDragging(false)
 
     if (!isLoggedIn) {
-      alert('请先登录后再使用此功能！')
+      alert(t('请先登录后再使用此功能！'))
       return
     }
 
@@ -72,12 +72,12 @@ const UploadSection = ({ isLoggedIn, onFileUpload, isProcessing }) => {
     if (files.length > 0) {
       const file = files[0]
       if (!file.type.startsWith('image/')) {
-        alert('请选择图片文件！')
+        alert(t('请选择图片文件！'))
         return
       }
 
       if (file.size > MAX_FILE_SIZE) {
-        alert('图片大小不能超过10MB！')
+        alert(t('图片大小不能超过10MB！'))
         return
       }
 
@@ -86,7 +86,7 @@ const UploadSection = ({ isLoggedIn, onFileUpload, isProcessing }) => {
         onFileUpload(imageDataUrl)
       } catch (error) {
         console.error('文件处理错误:', error)
-        alert('文件处理失败，请重试！')
+        alert(t('文件处理失败，请重试！'))
       }
     }
   }
@@ -119,25 +119,25 @@ const UploadSection = ({ isLoggedIn, onFileUpload, isProcessing }) => {
             <line x1="12" y1="3" x2="12" y2="15"></line>
           </svg>
 
-          <p className="text-gray-600">点击或拖拽照片到这里</p>
-          <p className="text-gray-500 text-xs">支持jpg、png等格式，大小不超过10MB</p>
+          <p className="text-gray-600">{t('点击或拖拽照片到这里')}</p>
+          <p className="text-gray-500 text-xs">{t('支持jpg、png等格式，大小不超过10MB')}</p>
 
           <button
             className={`
               px-4 py-2 rounded transition-colors
-              ${isProcessing 
-                ? 'bg-gray-400 text-white cursor-not-allowed' 
+              ${isProcessing
+                ? 'bg-gray-400 text-white cursor-not-allowed'
                 : 'bg-blue-500 hover:bg-blue-600 text-white'}
             `}
             disabled={!isLoggedIn || isProcessing}
           >
-            {isProcessing ? '处理中...' : '选择照片'}
+            {isProcessing ? t('处理中...') : t('选择照片')}
           </button>
         </div>
       </div>
 
       {!isLoggedIn && (
-        <p className="text-center text-amber-600 mt-3 w-full">请先登录后再使用上传功能</p>
+        <p className="text-center text-amber-600 mt-3 w-full">{t('请先登录后再使用上传功能')}</p>
       )}
     </div>
   )
@@ -149,4 +149,4 @@ UploadSection.propTypes = {
   isProcessing: PropTypes.bool.isRequired
 }
 
-export default UploadSection 
+export default UploadSection

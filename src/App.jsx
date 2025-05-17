@@ -3,9 +3,11 @@ import Header from './components/Header'
 import UploadSection from './components/UploadSection'
 import PreviewSection from './components/PreviewSection'
 import Footer from './components/Footer'
-import {GoogleGenerativeAI} from '@google/generative-ai'
+import { GoogleGenerativeAI } from '@google/generative-ai'
 
 function App() {
+  const _langStored = window.localStorage.getItem('lang');
+  const [currentLang, setCurrentLnag] = useState(_langStored);
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [currentImage, setCurrentImage] = useState(null)
   const [processedImage, setProcessedImage] = useState(null)
@@ -61,7 +63,7 @@ function App() {
       setProcessedImage(response)
     } catch (error) {
       console.error('图片处理错误:', error)
-      alert('图片处理失败，请重试！')
+      alert(t('图片处理失败，请重试！'))
     } finally {
       setIsProcessing(false)
     }
@@ -86,13 +88,13 @@ function App() {
       const model = genAI.getGenerativeModel({
         model: "gemini-2.0-flash-exp-image-generation",
         generationConfig: {
-            responseModalities: ['Text', 'Image']
+          responseModalities: ['Text', 'Image']
         },
       });
 
       // 调用Gemini API
       const response = await model.generateContent(contents);
-      for (const part of  response.response.candidates[0].content.parts) {
+      for (const part of response.response.candidates[0].content.parts) {
         // Based on the part type, either show the text or save the image
         if (part.text) {
           console.log(part.text);
@@ -139,6 +141,13 @@ function App() {
     img.src = processedImage
   }
 
+  const handleChangeLang = (e) => {
+    const lang = e.target.value;
+    setCurrentLnag(lang)
+    window.localStorage.setItem('lang', lang)
+    window.location.reload()
+  }
+
   return (
     <div className="min-h-screen w-full bg-gray-50">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 py-4 pb-24">
@@ -168,8 +177,7 @@ function App() {
             />
           )}
         </main>
-
-        <Footer />
+        <Footer onLangChange={handleChangeLang} currentLang={currentLang}/>
       </div>
     </div>
   )
