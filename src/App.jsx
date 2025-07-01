@@ -4,6 +4,7 @@ import UploadSection from './components/UploadSection'
 import PreviewSection from './components/PreviewSection'
 import Footer from './components/Footer'
 import { GoogleGenerativeAI } from '@google/generative-ai'
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const _langStored = window.localStorage.getItem('lang');
@@ -179,6 +180,7 @@ function App() {
         </main>
         <Footer onLangChange={handleChangeLang} currentLang={currentLang}/>
       </div>
+      <Analytics />
     </div>
   )
 }
