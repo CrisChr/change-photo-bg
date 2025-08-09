@@ -196,5 +196,23 @@
 		"en": "Log out",
 		"fr": "Se déconnecter",
 		"ja": "ログアウト"
+	},
+	"qlc8h3k": {
+		"zh-cn": "请输入您的Gemini API Key：",
+		"en": "Please enter your Gemini API Key:",
+		"fr": "Veuillez entrer votre clé API Gemini :",
+		"ja": "Gemini API Keyを入力してください："
+	},
+	"e32z2": {
+		"zh-cn": "保存",
+		"en": "Save",
+		"fr": "Enregistrer",
+		"ja": "保存"
+	},
+	"97pl37u": {
+		"zh-cn": "您的API Key将仅保存在您的浏览器中，不会上传至服务器。",
+		"en": "Your API Key will only be saved in your browser and will not be uploaded to the server.",
+		"fr": "Votre clé API ne sera conservée que dans votre navigateur et ne sera pas téléchargée sur le serveur.",
+		"ja": "ご利用のAPI Keyはブラウザにのみ保存され、サーバーにはアップロードされません。"
 	}
 }
